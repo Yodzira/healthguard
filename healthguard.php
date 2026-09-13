@@ -3,7 +3,7 @@
  * Plugin Name:       Health Guard
  * Plugin URI:        https://github.com/Yodzira/healthguard
  * Description:       Weekly site checks with plain-language reports: PHP/WordPress versions, overdue cron, TLS expiry, autoload bloat, disk space, stale plugins. Email digest included.
- * Version:           0.1.0
+ * Version:           0.1.1
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Yodzira
@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'HGD_VERSION', '0.1.0' );
+define( 'HGD_VERSION', '0.1.1' );
 define( 'HGD_FILE', __FILE__ );
 define( 'HGD_DIR', __DIR__ );
 

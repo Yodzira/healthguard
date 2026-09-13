@@ -20,7 +20,7 @@ class HGD_Scanner {
 	 * @return HGD_Check[]
 	 */
 	public static function default_checks() {
-		return array(
+		$checks = array(
 			new HGD_Check_PhpVersion(),
 			new HGD_Check_PluginTestedUpTo(),
 			new HGD_Check_CronOverdue(),
@@ -29,6 +29,13 @@ class HGD_Scanner {
 			new HGD_Check_DiskSpace(),
 			new HGD_Check_StalePlugins(),
 		);
+
+		/**
+		 * Extra checks (Health Guard Pro or hosting-specific integrations).
+		 *
+		 * @param HGD_Check[] $checks Check instances.
+		 */
+		return apply_filters( 'siteguard_checks', $checks );
 	}
 
 	/**

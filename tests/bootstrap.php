@@ -26,3 +26,11 @@ spl_autoload_register(
 		}
 	}
 );
+
+function apply_filters( $tag, $value ) {
+	return $value; // No filters in unit tests.
+}
+
+function wp_parse_args( $args, $defaults ) {
+	return array_merge( $defaults, (array) $args );
+}
