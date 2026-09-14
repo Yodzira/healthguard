@@ -26,6 +26,13 @@ Each finding comes with "why it matters" and "what to do". A weekly email digest
 
 The check runs on a cron request, never on your visitors' page loads, and reads only your own site. Clean uninstall removes the table, options and scheduled events.
 
+== Pro Version ==
+
+Pro adds automation, reports and integrations on top of the free version
+(one license = one site, 12 months of updates):
+
+https://yodsira.duckdns.org/buy/health-guard
+
 == Installation ==
 
 1. Install and activate the plugin.
