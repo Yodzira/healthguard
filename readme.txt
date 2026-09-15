@@ -1,5 +1,5 @@
 === Health Guard ===
-Contributors: yodzira
+Contributors: yodsira
 Tags: site health, monitoring, cron, tls, maintenance
 Requires at least: 6.0
 Tested up to: 7.1
