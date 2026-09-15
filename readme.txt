@@ -31,7 +31,7 @@ The check runs on a cron request, never on your visitors' page loads, and reads 
 Pro adds automation, reports and integrations on top of the free version
 (one license = one site, 12 months of updates):
 
-https://yodsira.duckdns.org/buy/health-guard
+https://yodsira.com/buy/health-guard
 
 == Installation ==
 
